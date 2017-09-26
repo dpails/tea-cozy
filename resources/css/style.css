@@ -1,4 +1,4 @@
-*{
+body{
   background-color: black;
   font-family:Helvetica;
   color: seashell;
@@ -80,36 +80,28 @@ h4{
   background-size: cover;
   height: 500px;
   width: 1200px;
-  display: inline;
-  position: absolute;
-
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #locations h2{
   font-weight: bold;
   text-align: center;
-  position: relative;
 }
 
-.storelocation{
-  /*background-color: black;
-  color:seashell;
-  opacity: 1;*/
-  width: 300px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.location-container{
-  display: flex;
-  justify-content: space-around;
-}
-
-.loaction{
+.location{
   width:300px;
   text-align: center;
   font-weight: bold;
   background-color: black;
   color:seashell;
   opacity: 1;
+  margin-right: 40px;
+  display: inline-block;
+}
+
+.location:last-child{
+  margin-right: 0;
 }
