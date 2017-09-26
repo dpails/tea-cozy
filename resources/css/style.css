@@ -3,6 +3,8 @@ body{
   font-family:Helvetica;
   color: seashell;
   font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 
 h2{
@@ -21,18 +23,17 @@ h4{
   height: 69px;
   position: fixed;
   border-bottom: 1px solid seashell;
+  width: 100%;
   top: 0px;
   z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
 }
 
 .header img{
   height: 50px;
-}
-
-.toplinks{
-  float: right;
-  margin-left: 725px;
-  vertical-align: middle;
 }
 
 .toplinks a{
