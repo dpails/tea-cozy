@@ -38,16 +38,17 @@ h4{
 
 .toplinks a{
   margin-left: 25px;
-  margin-top: auto;
 }
 
 .midcontainer{
   text-align: center;
-  width: 1200px;
 }
 
-.midcontainer img{
+.missionimage{
   height: 700px;
+  margin: 0 auto;
+  width: 1200px;
+
 }
 
 #mission{
