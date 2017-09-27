@@ -18,7 +18,7 @@ h4{
   padding: 10px;
   margin:0;
 }
-
+/*Header*/
 .header{
   height: 69px;
   position: fixed;
@@ -30,18 +30,24 @@ h4{
   align-items: center;
   justify-content: space-between;
   background-color: #000;
+  margin-bottom: 69px;
 }
 
 .header img{
   height: 50px;
+  padding-left: 10px;
 }
 
 .toplinks a{
   margin-left: 25px;
+  text-decoration: underline;
 }
+
+/*Mission*/
 
 .midcontainer{
   text-align: center;
+  margin-top:69px;
 }
 
 .missionimage{
@@ -57,6 +63,7 @@ h4{
   opacity: 1;
 }
 
+/*Featured Tea*/
 #tea{
   width: 1000px;
   margin: 0 auto;
@@ -97,6 +104,8 @@ h4{
   flex-wrap: wrap;
 }
 
+/*Locations*/
+
 #locations{
   background-image: url("../images/locations.jpg");
   background-position: center;
@@ -129,6 +138,8 @@ h4{
 .location:last-child{
   margin-right: 0;
 }
+
+/*Bottom Section*/
 
 .lastsection{
   height: 200px;
